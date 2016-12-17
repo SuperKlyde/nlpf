@@ -7,8 +7,9 @@
 // index.php                                                                                                                                                                                                                     
 $link = new PDO("mysql:host=localhost;dbname=blog", 'root', 'root');
 $result = $link->query('SELECT id, title FROM post');
-?>
+
 */
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -18,5 +19,3 @@ $result = $link->query('SELECT id, title FROM post');
     <h1>Hello World!</h1>
   </body>
 </html>
-$link = null;
-?>
